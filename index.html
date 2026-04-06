@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <div class="info-content">
+          <h1 class="name" title="Julian Vidal Catuc">Julian Vidal Catuc</h1>
+
+          <p class="title">Head of Engineering / Lead Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:julian.vidal.catuc@gmail.com" class="contact-link">julian.vidal.catuc@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+447840208838" class="contact-link">+44 7840 208838</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Remote / UK-based</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/julian-vidal-b2990b86/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://julian-vc.github.io/" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            <strong>Head of Engineering / Lead Developer</strong> experienced in building and scaling <strong>data-driven platforms</strong> and leading <strong>high-performing teams</strong> in production environments. Hands-on leader specialising in <strong>system architecture</strong>, <strong>full-stack development</strong>, and <strong>performance optimisation</strong>, while driving technical strategy and delivering scalable systems aligned with business outcomes.
+          </p>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="skills">
+
+          <h3 class="h3 skills-title">Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Leadership & Delivery</h5>
+              </div>
+              <p>Team leadership, hiring, mentoring, technical strategy, roadmap planning, Agile/Scrum, stakeholder management.</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Architecture & Systems</h5>
+              </div>
+              <p>System design, scalable architectures, distributed systems, microservices, performance optimisation, modernisation.</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud & Data Platforms</h5>
+              </div>
+              <p>AWS (Lambda, Step Functions), serverless, CI/CD, Infrastructure as Code, Databricks, Spark, ETL, data platforms.</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Engineering</h5>
+              </div>
+              <p>Full-stack development, APIs, event-driven systems, React, Node.js.</p>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Languages</h5>
+              </div>
+              <p>JavaScript/TypeScript, Python, Java, C#, SQL/NoSQL, PostgreSQL, MongoDB.</p>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="work">
+
+          <h3 class="h3">Work Experience</h3>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Head of Engineering | Signol</h4>
+
+              <span>2023 — Present</span>
+
+              <ul class="timeline-text">
+                <li>Scaled and led a team of 5 engineers, driving technical strategy, prioritisation, and execution, improving team velocity and delivery quality.</li>
+                <li>Led architectural redesigns reducing system load times by up to 10x and completed front-end modernisation.</li>
+                <li>Re-architected legacy ETL into Databricks/Spark medallion architecture, achieving ~1000x faster ETL performance.</li>
+                <li>Designed and deployed personalised communication systems for low-connectivity environments.</li>
+                <li>Owned a high-scale data platform processing data from 50+ aircraft and 200+ vessels.</li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer | Signol</h4>
+
+              <span>2018 — 2023</span>
+
+              <ul class="timeline-text">
+                <li>Led full-stack development and system architecture of a behavioural economics platform (React, Node.js, Java), scaling from MVP to production-grade.</li>
+                <li>Designed and built AWS-based data pipelines and serverless ETL (Step Functions, Lambda).</li>
+                <li>Defined database architecture, CI/CD pipelines, and infrastructure-as-code to improve reliability and deployment efficiency.</li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Professor | UNAJ</h4>
+
+              <span>2018 — 2019</span>
+
+              <ul class="timeline-text">
+                <li>Delivered lectures and tutorials in Information & Communications and Programming & Algorithms (C#).</li>
+                <li>Designed and improved course materials; mentored students on architecture and coding standards.</li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer | Resolvit</h4>
+
+              <span>2017 — 2018</span>
+
+              <ul class="timeline-text">
+                <li>Co-architected CI/CD pipelines leveraging AWS; migrated on-prem services to serverless architectures.</li>
+                <li>Served as technical liaison, designed scalable backend services (Node.js, TypeScript, PostgreSQL, MongoDB).</li>
+              </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer | Systech</h4>
+
+              <span>2016 — 2017</span>
+
+              <ul class="timeline-text">
+                <li>Collaborated on scalable full-stack solutions, refactored legacy codebases and led front-end modernization.</li>
+              </ul>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="patents">
+
+          <h3 class="h3 clients-title">Patents</h3>
+
+          <ol class="timeline-list">
+            <li class="timeline-item"><strong>2024</strong> — System and method for evaluating whether one or more actions were carried out during an event (PCT/EP2024/079974). Status: Pending.</li>
+          </ol>
+
+        </section>
+
+        <section class="education">
+
+          <h3 class="h3">Education</h3>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Engineering</h4>
+
+              <span>2011 — 2015</span>
+
+              <p class="timeline-text">Universidad Nacional Arturo Jauretche, Argentina — Computer Science, Informatics and Engineering. Participation in project PIXIE OS.</p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- Simplified company portfolio. Replace href and src with real links and images -->
+          <ul class="company-list">
+
+            <li class="company-item">
+              <a href="https://www.signol.io/" class="company-link">
+                <div class="company-logo">
+                  <img src="https://signol.b-cdn.net/app/uploads/2023/08/signol-logo.svg" alt="Signol logo" loading="lazy" width="120">
+                </div>
+                <h3 class="company-title">Signol</h3>
+                <p class="company-role">Head of Engineering</p>
+                <p class="company-dates">2023 — Present</p>
+              </a>
+            </li>
+
+            <li class="company-item">
+              <a href="#" class="company-link">
+                <div class="company-logo">
+                  <img src="https://www.empleosit.com.ar/files/pictures/Logo_1.png" alt="Resolvit logo" loading="lazy" width="120">
+                </div>
+                <h3 class="company-title">Resolvit</h3>
+                <p class="company-role">Software Developer / Lead</p>
+                <p class="company-dates">2017 — 2018</p>
+              </a>
+            </li>
+
+            <li class="company-item">
+              <a href="https://www.unaj.edu.ar/about-the-university/" class="company-link">
+                <div class="company-logo">
+                  <img src="https://www.unaj.edu.ar/wp-content/uploads/2016/06/logo-unaj-2016-01.jpg" alt="UNAJ logo" loading="lazy" width="120">
+                </div>
+                <h3 class="company-title">UNAJ</h3>
+                <p class="company-role">Professor</p>
+                <p class="company-dates">2018 — 2019</p>
+              </a>
+            </li>
+
+            <li class="company-item">
+              <a href="https://www.systechsa.com/publico/" class="company-link">
+                <div class="company-logo">
+                  <img src="https://media.licdn.com/dms/image/v2/C4D0BAQEJh5xhImWi-g/company-logo_200_200/company-logo_200_200/0/1630560784933?e=2147483647&v=beta&t=IffCJrz_QsLHmvGBdVlQatUGUIGZtahllBHbgD0ic2s" alt="Systech logo" loading="lazy" width="120">
+                </div>
+                <h3 class="company-title">Systech</h3>
+                <p class="company-role">Software Developer</p>
+                <p class="company-dates">2016 — 2017</p>
+              </a>
+            </li>
+
+            <!-- Add more company entries as needed. Use real logo images and link targets. -->
+
+          </ul>
+        </section>
+
+      </article>
+      
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
