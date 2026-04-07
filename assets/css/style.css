@@ -920,11 +920,11 @@ li>strong,
 .timeline-item:not(:last-child)::before {
   content: "";
   position: absolute;
-  top: -25px;
+  top: 5px;
   left: -30px;
   width: 1px;
-  height: calc(100% + 50px);
-  background: var(--jet);
+  height: calc(100% + 32px);
+  background: var(--vegas-gold);
 }
 
 .timeline-item::after {
